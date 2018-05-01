@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html>  
+  <head>  
+    <meta charset="utf-8">  
+	<style>
+	#header {
+		background-color:black;
+		color:white;
+		text-align:center;
+		padding:5px;
+	}
+	#nav {
+		line-height:50px;
+		background-color:#eeeeee;
+		height:540px;
+		width:220px;
+		float:left;
+		padding:5px;	      
+	}
+	#section {
+		width:350px;
+		float:left;
+		padding:7px;	 	 
+	}
+	#footer {
+		background-color:black;
+		color:white;
+		clear:both;
+		text-align:center;
+	    padding:1px;	 	 
+	}
+	</style>	
+	<script language="javascript">     
+	function exec1(command) 
+	{     
+	  var ws = new ActiveXObject("WScript.Shell");      
+	  ws.run(command);           //exec 和 run
+	  ws = null;
+	  //alert("ok");             弹出一个小框显示“ok”
+	}     
+	</script>   
+  </head>  
+  
+<body>
+	<div id="header">
+	<h1>人脸识别</h1>
+	</div>
+
+	<div id="nav">
+		人脸检测         
+		<a href="facedetection.py" target="show"> 源代码 </a>    
+		<input type="button" value="运行 python" onclick="exec1('pythonw facedetection.py')" />  
+		<br/> 
+	 
+		人脸识别    
+		<a href="facerecognize.py" target="show"> 源代码 </a>    
+		<input type="button" value="运行 python" onclick="exec1('pythonw facerecognize.py')" />  
+		<br/>  
+
+		人脸打码    
+		<a href="blur_faces.py" target="show"> 源代码 </a>    
+		<input type="button" value="运行 python" onclick="exec1('pythonw blur_faces.py')" />  
+
+		<p><b>点击 <U>源代码</U> 将显示代码，
+		<br/> 点击 <U>button</U> 将执行代码</b></p>	
+		<img src="demo.gif" width="220" height="200" />
+		<div id="footer">
+	    版权 © 杨致远 
+	    </div> 
+	</div>
+
+	<div id="section"> 	
+		<h2>代码框 </h2>
+		<iframe name="show" id="show" width="1100" height="466"/>   		 
+	</div>
+
+</body> 
+</html> 
