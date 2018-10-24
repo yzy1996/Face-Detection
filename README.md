@@ -1,4 +1,4 @@
-# Face
+# Face-Detection
 
 ## 中文介绍
 
@@ -6,6 +6,8 @@
 
 参考的他人项目有：
 https://github.com/ageitgey/face_recognition
+
+我的CSDN博客写了更加详细的过程：https://blog.csdn.net/yzy_1996/article/details/80223053
 
 >文件说明
 
