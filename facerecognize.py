@@ -1,7 +1,7 @@
 import face_recognition
 import cv2
 
-video_capture = cv2.VideoCapture(3)
+video_capture = cv2.VideoCapture(0)
 #在这里放入一个人脸
 yang_image = face_recognition.load_image_file("5.jpg")
 yang_face_encoding = face_recognition.face_encodings(yang_image)[0]
