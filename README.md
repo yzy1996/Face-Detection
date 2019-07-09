@@ -40,5 +40,5 @@ https://github.com/ageitgey/face_recognition
 
 
 ## 作者介绍
->杨致远 西安交通大学 自动化 yang3781590@163.com
+>杨致远 西安交通大学
 
