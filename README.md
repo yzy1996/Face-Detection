@@ -17,7 +17,7 @@ https://github.com/ageitgey/face_recognition
 
 .xml是人脸识别的库。
 
-.jpg是做人脸识别时对照的人脸照片。
+.jpg是做人脸识别时对照的人脸照片。(某些问题删掉了，请换上自己的吧)
 
 
 >相关准备说明
